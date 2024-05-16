@@ -74,7 +74,7 @@ const ClientCaptcha = forwardRef(
           width={width}
           height={height}
           ref={canvasRef}
-          style={{ pointerEvents: 'none' }}
+          // style={{ pointerEvents: 'none' }}
           className={captchaClassName}
         />
         {refreshButton && (
